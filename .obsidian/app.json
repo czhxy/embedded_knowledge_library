@@ -1,0 +1,9 @@
+{
+  "attachmentFolderPath": "99-附件",
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "newFileLocation": "current",
+  "showLineNumber": true,
+  "trashOption": "local"
+}

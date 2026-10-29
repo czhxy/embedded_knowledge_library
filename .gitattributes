@@ -1,0 +1,2 @@
+# 跨 Windows / Mac 统一换行，避免无意义的整文件 diff
+* text=auto
