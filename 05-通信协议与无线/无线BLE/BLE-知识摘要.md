@@ -4,10 +4,10 @@ created: 2026-10-29
 updated: 2026-10-29
 ---
 
-# BLE
+# 无线 BLE
 
 > 本笔记由 XMind 导图自动转换，图片已提取至 `99-附件/无线BLE/`。
-> 原导图见 `90-旧XMind导图/无线BLE/BLE.xmind`。
+> 原导图见 `xmind导图/BLE/BLE.xmind`。
 
 ## 蓝牙分为经典蓝牙（BR/EDR）和低功耗蓝牙（BLE）两大类；本导图讨论的 BLE（Bluetooth Low Energy）即低功耗蓝牙
 ## MAC 地址（Media Access Control Address）

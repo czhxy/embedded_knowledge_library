@@ -8,3 +8,11 @@
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# xmind导图 内的大体积参考资料不入库（只保留 .xmind / 图片 / .md）
+xmind导图/**/*.pdf
+xmind导图/**/*.zip
+xmind导图/**/*.doc
+xmind导图/**/*.docx
+xmind导图/**/*.ppt
+xmind导图/**/*.pptx

@@ -22,12 +22,12 @@ embedded_knowledge_library/
 ├─ 02-体系结构与数字电路/     ARM架构、电源与电路
 ├─ 03-单片机与MCU/            STM32外设、启动流程与Bootloader、中断与时钟、内存布局与堆栈
 ├─ 04-RTOS/                   FreeRTOS、Zephyr
-├─ 05-通信协议与无线/         有线协议、USB、EtherCAT、无线BLE、Nordic
+├─ 05-通信协议与无线/         有线协议、USB、EtherCAT、无线BLE、Nordic、物联网通信
 ├─ 06-操作系统与驱动/         Linux驱动
 ├─ 07-工具链与开发环境/       Git、开源嵌入式开发环境
 ├─ 08-电机控制与算法/         FOC
 ├─ 09-面试与项目/             面经、面试项目、实习总结
-├─ 90-旧XMind导图/            原 XMind 导图（原样保留，见迁移记录）
+├─ xmind导图/                 XMind 源文件 + 转换工具（大体积 PDF/ZIP/DOC 不入库）
 ├─ 99-附件/                   全局图片附件（Obsidian 自动归集）
 ├─ 99-归档/                   处理完的 Inbox 按月归档
 ├─ 模板/                      Obsidian 笔记模板
@@ -60,8 +60,8 @@ embedded_knowledge_library/
 
 ## 四、图片与迁移
 
-- **新内容**：图片存 `99-附件/`，引用相对于库内路径，整个文件夹复制即完整。
-- **旧 XMind**：暂原样保留，图片仍是外部 `pic/` 链接；迁移前按 `90-旧XMind导图/迁移记录.md` 处理。
+- **新内容**：图片存 `99-附件/`（按主题再分一层），引用相对于库内路径，整个文件夹复制即完整。
+- **XMind**：全部导图已转换，图片从 `.xmind` 内嵌资源导出到 `99-附件/<主题>/`，共 148 张，链接已校验。
 - **迁 Mac**：复制整个文件夹，或 `git clone`，无需重新贴图。
 
 ## 五、版本管理（Git）
@@ -78,4 +78,9 @@ git commit -m "初始化嵌入式知识库"
 ## 六、与 XMind 的关系
 
 - 导图适合搭框架、面试前速览；Markdown 适合写详解、贴图、留碎片。
-- 新知识优先写成 Markdown；需要结构图时，在对应主题下另存 XMind 并在笔记里链接过来。
+- **日常做法**：在 `xmind导图/` 下维护脑图，然后运行转换脚本生成 Obsidian 笔记：
+  ```bash
+  node "xmind导图/tools/batch_migrate.mjs"           # 只转换新增/修改的导图
+  node "xmind导图/tools/batch_migrate.mjs" --force   # 全部重建
+  ```
+- 新增导图需先在 `xmind导图/tools/mapping.json` 补一条映射，详见 `xmind导图/CLAUDE.md`。

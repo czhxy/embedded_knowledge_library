@@ -1,0 +1,242 @@
+{
+  "xmind导图/2021智能园艺面经.xmind": {
+    "hash": "dfac2ae774d23ff8277e10a1527514ab6f79367a",
+    "md": "09-面试与项目/面经/2021智能园艺面经.md",
+    "imgDir": "99-附件/2021智能园艺面经",
+    "images": 0,
+    "missing": [],
+    "at": "2026-10-29T04:54:03.351Z"
+  },
+  "xmind导图/ADC与中断专题.xmind": {
+    "hash": "e9390ebdc7280bdb0fed5c1f6464594c9ccd97fb",
+    "md": "03-单片机与MCU/中断与时钟/ADC与中断专题.md",
+    "imgDir": "99-附件/ADC与中断专题",
+    "images": 0,
+    "missing": [],
+    "at": "2026-10-29T04:54:03.619Z"
+  },
+  "xmind导图/ARM架构.xmind": {
+    "hash": "e535af2e43a8422a6580dd1b434053d9c17a6942",
+    "md": "02-体系结构与数字电路/ARM架构/ARM架构-知识摘要.md",
+    "imgDir": "99-附件/ARM架构",
+    "images": 0,
+    "missing": [],
+    "at": "2026-10-29T04:54:03.865Z"
+  },
+  "xmind导图/BLE/BLE.xmind": {
+    "hash": "82d544fef546293cf21da602cb2b2edee1a2c763",
+    "md": "05-通信协议与无线/无线BLE/BLE-知识摘要.md",
+    "imgDir": "99-附件/无线BLE",
+    "images": 19,
+    "missing": [],
+    "at": "2026-10-29T04:54:04.134Z"
+  },
+  "xmind导图/bootloader.xmind": {
+    "hash": "20801b61b1372bf31fc8e855e8224ae50311ca3d",
+    "md": "03-单片机与MCU/启动流程与Bootloader/Bootloader-知识摘要.md",
+    "imgDir": "99-附件/Bootloader",
+    "images": 0,
+    "missing": [],
+    "at": "2026-10-29T04:54:04.391Z"
+  },
+  "xmind导图/buck和boost电路.xmind": {
+    "hash": "19ee56d2aa452f79d9c8528ed9300433ea950160",
+    "md": "02-体系结构与数字电路/电源与电路/Buck与Boost电路.md",
+    "imgDir": "99-附件/Buck与Boost",
+    "images": 0,
+    "missing": [],
+    "at": "2026-10-29T04:54:04.608Z"
+  },
+  "xmind导图/CAN框架.xmind": {
+    "hash": "b06904b630a3fe27aaac028f27170397eff5b879",
+    "md": "05-通信协议与无线/有线协议/CAN框架.md",
+    "imgDir": "99-附件/CAN",
+    "images": 0,
+    "missing": [],
+    "at": "2026-10-29T04:54:04.847Z"
+  },
+  "xmind导图/c语言指针辨析.xmind": {
+    "hash": "334faf2201aeef1ae91d619d5a0a466df4ed1329",
+    "md": "01-编程基础/C语言/C语言指针辨析.md",
+    "imgDir": "99-附件/C语言指针",
+    "images": 0,
+    "missing": [],
+    "at": "2026-10-29T04:54:05.060Z"
+  },
+  "xmind导图/EEPROM和FLASH.xmind": {
+    "hash": "906878b3b2d67f6be92550820d08057bfcaf7400",
+    "md": "03-单片机与MCU/STM32外设/EEPROM与FLASH.md",
+    "imgDir": "99-附件/EEPROM与FLASH",
+    "images": 0,
+    "missing": [],
+    "at": "2026-10-29T04:54:05.266Z"
+  },
+  "xmind导图/EtherCAT/EtherCAT.xmind": {
+    "hash": "235a089a576182ce2d5a96fb7ce2ce1a3703a422",
+    "md": "05-通信协议与无线/EtherCAT/EtherCAT-知识摘要.md",
+    "imgDir": "99-附件/EtherCAT",
+    "images": 20,
+    "missing": [],
+    "at": "2026-10-29T04:54:05.514Z"
+  },
+  "xmind导图/FOC算法.xmind": {
+    "hash": "9f1bc31914aab2663dbcf512e9109b138724feec",
+    "md": "08-电机控制与算法/FOC/FOC算法.md",
+    "imgDir": "99-附件/FOC",
+    "images": 0,
+    "missing": [],
+    "at": "2026-10-29T04:54:05.716Z"
+  },
+  "xmind导图/FreeRTOS/FreeRTOS.xmind": {
+    "hash": "fd2cd1821a999251bc4de7121793a68ebdf25ca1",
+    "md": "04-RTOS/FreeRTOS/FreeRTOS-知识摘要.md",
+    "imgDir": "99-附件/FreeRTOS",
+    "images": 30,
+    "missing": [],
+    "at": "2026-10-29T04:54:06.058Z"
+  },
+  "xmind导图/git/git.xmind": {
+    "hash": "0132c8cab80db264705d69eb0aea97055be622fe",
+    "md": "07-工具链与开发环境/Git/Git-知识摘要.md",
+    "imgDir": "99-附件/Git",
+    "images": 1,
+    "missing": [],
+    "at": "2026-10-29T04:54:06.287Z"
+  },
+  "xmind导图/Nordic/Nordic.xmind": {
+    "hash": "c8c973db2edd9d2c192fc7eef2666d6a9a6ee7ab",
+    "md": "05-通信协议与无线/Nordic/Nordic-知识摘要.md",
+    "imgDir": "99-附件/Nordic",
+    "images": 0,
+    "missing": [],
+    "at": "2026-10-29T04:54:06.519Z"
+  },
+  "xmind导图/Nordic/Nordic开发SOP.xmind": {
+    "hash": "5d62aa090d8abbe36a213b4773479557f5ac8be2",
+    "md": "05-通信协议与无线/Nordic/Nordic开发SOP-知识摘要.md",
+    "imgDir": "99-附件/Nordic开发SOP",
+    "images": 0,
+    "missing": [],
+    "at": "2026-10-29T04:54:48.711Z"
+  },
+  "xmind导图/STM32外设/STM32外设.xmind": {
+    "hash": "2235e4ea92a20fcaaab7ca56552791c456d3701b",
+    "md": "03-单片机与MCU/STM32外设/STM32外设-知识摘要.md",
+    "imgDir": "99-附件/STM32外设",
+    "images": 19,
+    "missing": [],
+    "at": "2026-10-29T04:54:07.040Z"
+  },
+  "xmind导图/USB/USB.xmind": {
+    "hash": "95153875ffaf9e24233e2259987e917fcbd8c839",
+    "md": "05-通信协议与无线/USB/USB-知识摘要.md",
+    "imgDir": "99-附件/USB",
+    "images": 37,
+    "missing": [],
+    "at": "2026-10-29T04:54:07.353Z"
+  },
+  "xmind导图/zephyr/zephyr.xmind": {
+    "hash": "b25bf505b354578660b8737ad3622a9d85497a7f",
+    "md": "04-RTOS/Zephyr/Zephyr-知识摘要.md",
+    "imgDir": "99-附件/Zephyr",
+    "images": 1,
+    "missing": [],
+    "at": "2026-10-29T04:54:07.548Z"
+  },
+  "xmind导图/单片机启动流程.xmind": {
+    "hash": "c5914ba4879c7234d04aee8522008b8aae173299",
+    "md": "03-单片机与MCU/启动流程与Bootloader/单片机启动流程.md",
+    "imgDir": "99-附件/单片机启动流程",
+    "images": 0,
+    "missing": [],
+    "at": "2026-10-29T04:54:07.746Z"
+  },
+  "xmind导图/堆栈/堆和栈.xmind": {
+    "hash": "e54bf25de21c566b65358d9219903b601e51bfa1",
+    "md": "03-单片机与MCU/内存布局与堆栈/堆和栈.md",
+    "imgDir": "99-附件/堆和栈",
+    "images": 1,
+    "missing": [],
+    "at": "2026-10-29T04:54:07.950Z"
+  },
+  "xmind导图/开源嵌入式开发环境/开源嵌入式开发环境.xmind": {
+    "hash": "cb4f94aab31b9ecfb3f04c9d7cf52e12021c1b3b",
+    "md": "07-工具链与开发环境/开源嵌入式开发环境/开源嵌入式开发环境-知识摘要.md",
+    "imgDir": "99-附件/开源嵌入式开发环境",
+    "images": 3,
+    "missing": [],
+    "at": "2026-10-29T04:54:08.151Z"
+  },
+  "xmind导图/面试项目/面试项目专题.xmind": {
+    "hash": "f565c09880fd9bf7745ec48c5c2a02bf8aac3549",
+    "md": "09-面试与项目/面试项目/面试项目专题.md",
+    "imgDir": "99-附件/面试项目",
+    "images": 3,
+    "missing": [],
+    "at": "2026-10-29T04:54:08.397Z"
+  },
+  "xmind导图/嵌入式内存布局.xmind": {
+    "hash": "dbe60dd4a2db94e4e4919b555903e428f16b329f",
+    "md": "03-单片机与MCU/内存布局与堆栈/嵌入式内存布局.md",
+    "imgDir": "99-附件/嵌入式内存布局",
+    "images": 0,
+    "missing": [],
+    "at": "2026-10-29T04:54:08.602Z"
+  },
+  "xmind导图/时钟树.xmind": {
+    "hash": "c8d55c73ef547d51c08f39b0c95041ec44c6a2d8",
+    "md": "03-单片机与MCU/中断与时钟/时钟树.md",
+    "imgDir": "99-附件/时钟树",
+    "images": 0,
+    "missing": [],
+    "at": "2026-10-29T04:54:08.822Z"
+  },
+  "xmind导图/实习总结.xmind": {
+    "hash": "568e6481a3f9770df32e2d5cd57385456c338312",
+    "md": "09-面试与项目/实习总结/实习总结-知识梳理.md",
+    "imgDir": "99-附件/实习总结",
+    "images": 0,
+    "missing": [],
+    "at": "2026-10-29T04:54:09.015Z"
+  },
+  "xmind导图/通信协议/常用通信协议.xmind": {
+    "hash": "6d63eb0ed74d30cc5ea806038d1c2d99d3f42418",
+    "md": "05-通信协议与无线/有线协议/常用通信协议.md",
+    "imgDir": "99-附件/常用通信协议",
+    "images": 14,
+    "missing": [],
+    "at": "2026-10-29T04:54:09.326Z"
+  },
+  "xmind导图/通信协议/物联网常用通信协议.xmind": {
+    "hash": "e75b5ac3111a2cdbfedff68cb168160f728523d1",
+    "md": "05-通信协议与无线/物联网通信/物联网常用通信协议.md",
+    "imgDir": "99-附件/物联网通信协议",
+    "images": 0,
+    "missing": [],
+    "at": "2026-10-29T04:54:09.559Z"
+  },
+  "xmind导图/银河通用机器人面经.xmind": {
+    "hash": "1fbd5844816f353c97a613b7579d97baa8c8d144",
+    "md": "09-面试与项目/面经/银河通用机器人面经.md",
+    "imgDir": "99-附件/银河通用面经",
+    "images": 0,
+    "missing": [],
+    "at": "2026-10-29T04:54:09.780Z"
+  },
+  "xmind导图/中断.xmind": {
+    "hash": "4447840e6995ae908a2c4eee831a25600ed6fb75",
+    "md": "03-单片机与MCU/中断与时钟/中断.md",
+    "imgDir": "99-附件/中断",
+    "images": 0,
+    "missing": [],
+    "at": "2026-10-29T04:54:09.994Z"
+  },
+  "xmind导图/卓驭面经.xmind": {
+    "hash": "9cf31aa66f6aa0e7e1447c0a1b79ed1abd6879d3",
+    "md": "09-面试与项目/面经/卓驭面经.md",
+    "imgDir": "99-附件/卓驭面经",
+    "images": 0,
+    "missing": [],
+    "at": "2026-10-29T04:54:10.191Z"
+  }
+}

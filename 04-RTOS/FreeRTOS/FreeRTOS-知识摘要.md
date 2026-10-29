@@ -7,7 +7,7 @@ updated: 2026-10-29
 # FreeRTOS
 
 > 本笔记由 XMind 导图自动转换，图片已提取至 `99-附件/FreeRTOS/`。
-> 原导图见 `90-旧XMind导图/FreeRTOS/FreeRTOS.xmind`。
+> 原导图见 `xmind导图/FreeRTOS/FreeRTOS.xmind`。
 
 ## FreeRTOS的移植
 - **从github上下载LTS（长期支持版本）**

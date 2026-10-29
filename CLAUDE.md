@@ -17,12 +17,12 @@
 | `02-体系结构与数字电路/` | ARM架构、电源与电路 |
 | `03-单片机与MCU/` | STM32外设、启动/Bootloader、中断与时钟、内存与堆栈 |
 | `04-RTOS/` | FreeRTOS、Zephyr |
-| `05-通信协议与无线/` | 有线协议、USB、EtherCAT、BLE、Nordic |
+| `05-通信协议与无线/` | 有线协议、USB、EtherCAT、BLE、Nordic、物联网通信 |
 | `06-操作系统与驱动/` | Linux 驱动 |
 | `07-工具链与开发环境/` | Git、开源嵌入式开发环境 |
 | `08-电机控制与算法/` | FOC |
 | `09-面试与项目/` | 面经、面试项目、实习总结 |
-| `90-旧XMind导图/` | 旧 XMind 原样保留，迁移记录在此 |
+| `xmind导图/` | XMind 源文件 + 转换工具 + 迁移记录（不含大体积参考资料） |
 | `99-附件/` | **全局图片附件**（Obsidian 自动归集） |
 | `99-归档/` | 处理完的 Inbox 按月归档 |
 | `模板/` | Obsidian 笔记模板 |
@@ -70,12 +70,19 @@ updated: YYYY-MM-DD
   4. 提交一次 Git。
 - Inbox 不应长期堆积；它只是暂存区，不是正式知识。
 
-## 旧 XMind 迁移策略
+## XMind 导图与自动转换（重要）
 
-- 已核查：全部 30 份旧导图的图片都内嵌在 `.xmind` 内部，无外部路径引用，单文件即可移植。
-- 做法：原 `.xmind` 复制进 `90-旧XMind导图/<主题>/`，同时用 `90-旧XMind导图/tools/migrate_xmind.mjs` 生成 Markdown 摘要，图片导出到 `99-附件/<主题>/`。
-- 已完成试点：BLE、FreeRTOS、实习总结；剩余 27 份待批量迁移。
-- 详见 `90-旧XMind导图/迁移记录.md` 与 `90-旧XMind导图/CLAUDE.md`。
+- **源文件统一放在 `xmind导图/`**，保留原有子目录结构（如 `BLE/BLE.xmind`）。新增/修改导图直接放这里。
+- 已核查全部导图：图片以 `xap:attachments/` 或 `xap:resources/` 内嵌在 `.xmind` 内，无外部路径引用，单文件即可移植。
+- **转换流程**（用户只在 XMind 里维护脑图，Markdown 由助手生成）：
+  1. 在 `xmind导图/tools/mapping.json` 增加一条映射（`source` / `md` / `imgDir` / `title`）；
+  2. 运行 `node "xmind导图/tools/batch_migrate.mjs"`，自动只转换新增或内容变化的导图；
+  3. 图片导出到 `99-附件/<主题>/`，笔记写入对应知识目录；
+  4. 在对应索引笔记的 `## 笔记` 下补链接。
+- 需要全部重建时运行 `node "xmind导图/tools/batch_migrate.mjs" --force`。
+- 转换记录（源文件 sha1 清单）在 `xmind导图/tools/.migrated.json`，用作增量判断。
+- 大体积参考资料（PDF/ZIP/DOC）不纳入库，已在 `.gitignore` 排除；`xmind导图/` 内只保留 `.xmind`、图片、`.md`。
+- 详见 `xmind导图/迁移记录.md` 与 `xmind导图/CLAUDE.md`。
 
 ## Git 与同步
 
