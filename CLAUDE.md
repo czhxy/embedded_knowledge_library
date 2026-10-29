@@ -50,9 +50,10 @@ updated: YYYY-MM-DD
 ## 图片与附件（重要）
 
 - **所有图片必须存入 `99-附件/`**，由 Obsidian 自动处理（`.obsidian/app.json` 已设置 `attachmentFolderPath`）。
+- **按主题再分一层**：如 `99-附件/无线BLE/`、`99-附件/FreeRTOS/`。手动粘贴的图默认在根部，可移入对应主题文件夹。
 - **禁止引用库外绝对路径**（如 `C:\...\pic\xxx.png`），否则迁移到 Mac 会断图。
 - 在 Obsidian 内重命名/移动图片会自动更新引用；不要在文件管理器里直接改名。
-- 旧 XMind 的 `pic/` 是历史遗留，见下方迁移策略。
+- 旧 XMind 的图片已内嵌在 `.xmind` 内，见下方迁移策略。
 
 ## Inbox 碎片工作流
 
@@ -71,9 +72,10 @@ updated: YYYY-MM-DD
 
 ## 旧 XMind 迁移策略
 
-- 阶段 1（当前）：旧 XMind 原样保留，不做批量转换；**只保证新写的 Markdown 图片自包含**。
-- 阶段 2（待办）：把旧导图图片重嵌进库内或转 Markdown 后修图。
-- 待办清单见 `90-旧XMind导图/迁移记录.md`，优先处理：面经、实习总结。
+- 已核查：全部 30 份旧导图的图片都内嵌在 `.xmind` 内部，无外部路径引用，单文件即可移植。
+- 做法：原 `.xmind` 复制进 `90-旧XMind导图/<主题>/`，同时用 `90-旧XMind导图/tools/migrate_xmind.mjs` 生成 Markdown 摘要，图片导出到 `99-附件/<主题>/`。
+- 已完成试点：BLE、FreeRTOS、实习总结；剩余 27 份待批量迁移。
+- 详见 `90-旧XMind导图/迁移记录.md` 与 `90-旧XMind导图/CLAUDE.md`。
 
 ## Git 与同步
 
